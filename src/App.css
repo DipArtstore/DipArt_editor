@@ -1,0 +1,23 @@
+.App {
+  width: auto;
+  display: flex;
+}
+
+/*Common css */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toast-pos{
+  right: 10px;
+  top: 10px;
+}
+@font-face {
+  font-family: A Thuluth Regular;
+  src: url('./assets/atr.ttf');
+}
+@font-face {
+  font-family: DroidNaskh-Regular;
+  src: url('./assets/DroidNaskh-Regular.ttf');
+}

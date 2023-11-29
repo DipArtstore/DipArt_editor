@@ -1,0 +1,74 @@
+.header{
+    flex: 0 0 60px;
+    background-color: rgb(0 21 41);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "Courier New";
+    user-select: none;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design-info-wrapper{
+    height: 110px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+.pre-div{
+    color: #000000;
+    position: fixed;
+    /* width: 500px; */
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    background: #080808b8;
+}
+.inp{
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+}
+.pre-div{
+    display: flex;
+    flex-direction: column;
+}
+.close-btn{
+    color: white;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.save-btn{
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.prev-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
