@@ -17,7 +17,7 @@ import {deleteObject, imagesList, setCanvasSize} from "../../../utils/util-funct
 const activeColor = '#1d35ff'; const
     normalColor = '#ffffff';
 const optionsToAdd = ['id', 'name', 'sub_type'];
-const sizes = ['4x6 (10cmx15cm)','6x4 (15cmx10cm)','6x8 (15cmx22cm)','8x6 (22cmx15cm)','8x12 (20cmx30cm)','12x8 (30cmx20cm)','5x7 (13cmx18cm)','7x5 (18cmx13cm)','10x12 (25cmx30cm)','12x10(30cmx25cm)','12x16 (30cmx40cm)','16x12 (40cmx30cm)','8x10 (20cmx25cm)','10x8 (25cmx20cm)'];
+const sizes = ['4x6 (10cm x 15cm)','6x4 (15cm x 10cm)','6x8 (15cm x 22cm)','8x6 (22cm x 15cm)','8x12 (20cm x 30cm)','12x8 (30cm x 20cm)','5x7 (13cm x 18cm)','7x5 (18cm x 13cm)','10x12 (25cm x 30cm)','12x10 (30cm x 25cm)','12x16 (30cm x 40cm)','16x12 (40cm x 30cm)','8x10 (20cm x 25cm)','10x8 (25cm x 20cm)'];
 const DesignerTool = () => {
     const [fontSize, setFontSize] = useState('35')
     const [toggleSize, setToggleSize] = useState(false)
@@ -275,7 +275,7 @@ const DesignerTool = () => {
                         {
                             FontsList.map((item, index) => {
                                 return (
-                                    <option style={{fontFamily: item,backgroundColor:'#c60093',color:'#ffffff'}} key={index}>{item}</option>
+                                    <option style={{fontFamily: item,backgroundColor:'#ffffff',color:'#0f0f0f'}} key={index}>{item}</option>
                                 )
                             })
                         }
@@ -304,7 +304,7 @@ const DesignerTool = () => {
                     {
                         sizes.map((item, index) => {
                             return (
-                                <option style={{backgroundColor:'#c60093',color:'#ffffff'}} key={index}>{item}</option>
+                                <option style={{backgroundColor:'#ffffff',color:'#000000'}} key={index}>{item}</option>
                             )
                         })
                     }

@@ -179,20 +179,20 @@ export const imagesList = (canvas, dispatch) => {
 }
 export const setCanvasSize = (selectedSize, canvas) => {
     var sizes = {
-        '4x6 (10cmx15cm)': { width: 10, height: 15 },
-        '6x4 (15cmx10cm)': { width: 15, height: 10 },
-        '6x8 (15cmx22cm)': { width: 15, height: 22 },
-        '8x6 (22cmx15cm)': { width: 22, height: 15 },
-        '8x12 (20cmx30cm)': { width: 20, height: 30 },
-        '12x8 (30cmx20cm)': { width: 30, height: 20 },
-        '5x7 (13cmx18cm)': { width: 13, height: 18 },
-        '7x5 (18cmx13cm)': { width: 18, height: 13 },
-        '10x12 (25cmx30cm)': { width: 25, height: 30 },
-        '12x10 (30cmx25cm)': { width: 30, height: 25 },
-        '12x16 (30cmx40cm)': { width: 30, height: 40 },
-        '16x12 (40cmx30cm)': { width: 40, height: 30 },
-        '8x10 (20cmx25cm)': { width: 20, height: 25 },
-        '10x8 (25cmx20cm)': { width: 25, height: 20 }
+        '4x6 (10cm x 15cm)': { width: 10, height: 15 },
+        '6x4 (15cm x 10cm)': { width: 15, height: 10 },
+        '6x8 (15cm x 22cm)': { width: 15, height: 22 },
+        '8x6 (22cm x 15cm)': { width: 22, height: 15 },
+        '8x12 (20cm x 30cm)': { width: 20, height: 30 },
+        '12x8 (30cm x 20cm)': { width: 30, height: 20 },
+        '5x7 (13cm x 18cm)': { width: 13, height: 18 },
+        '7x5 (18cm x 13cm)': { width: 18, height: 13 },
+        '10x12 (25cm x 30cm)': { width: 25, height: 30 },
+        '12x10 (30cm x 25cm)': { width: 30, height: 25 },
+        '12x16 (30cm x 40cm)': { width: 30, height: 40 },
+        '16x12 (40cm x 30cm)': { width: 40, height: 30 },
+        '8x10 (20cm x 25cm)': { width: 20, height: 25 },
+        '10x8 (25cm x 20cm)': { width: 25, height: 20 }
         // Add more sizes if needed
     };
 
